@@ -2,6 +2,7 @@ Source: budgie-control-center
 Section: misc
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Homepage: https://github.com/buddiesofbudgie/budgie-control-center
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-gnome (>= 0.22.2),
                libaccountsservice-dev (>= 0.6.39),
@@ -110,7 +111,7 @@ Multi-Arch: foreign
 Section: devel
 Depends: ${misc:Depends},
          budgie-control-center-data
-Description: utilities to configure the Budgie desktop
+Description: Development package for Budgie Settings
  This package contains the file required to get the keydirs location
 
 Package: budgie-control-center-data

@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/buddiesofbudgie/budgie-control-center/
-Upstream-Name: Budgie Settings
+Upstream-Name: budgie-control-center
+Upstream-Contact: Budgie Desktop Developers <admin@buddiesofbudgie.org>
 
 Files: *
 Copyright:
