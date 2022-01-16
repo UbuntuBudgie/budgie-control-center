@@ -1,11 +1,5 @@
-budgie-control-center (0.1-0ubuntu1~ppa1) jammy; urgency=medium
+budgie-control-center (0.2-1) unstable; urgency=medium
 
-  * Change gnome-control-center-data to budgie-control-center-data
+  * Initial Release (Closes: #1003845)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 15 Jan 2022 16:29:06 +0000
-
-budgie-control-center (0.1-0ubuntu1~ppa) jammy; urgency=medium
-
-  * New upstream release
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 15 Jan 2022 13:35:44 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 16 Jan 2022 19:34:44 +0000

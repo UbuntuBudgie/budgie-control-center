@@ -5,7 +5,7 @@
 Source: budgie-control-center
 Section: misc
 Priority: optional
-Maintainer: David Mohamed <fossfreedom@ubuntu.com>
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-gnome (>= 0.22.2),
                libaccountsservice-dev (>= 0.6.39),
@@ -37,7 +37,6 @@ Build-Depends: debhelper-compat (= 13),
                libkrb5-dev,
                libnm-dev (>= 1.24.0) [linux-any],
                libnma-dev (>= 1.8.0) [linux-any],
-               libmalcontent-0-dev (>= 0.7.0) [amd64 arm64 armel armhf i386 mips mipsel mips64el ppc64el s390x hppa powerpc powerpcspe ppc64],
                libmm-glib-dev [linux-any],
                libpolkit-gobject-1-dev (>= 0.103),
                libpulse-dev (>= 13.0~),
@@ -88,21 +87,21 @@ Recommends: cups-pk-helper,
             policykit-1,
             rygel | rygel-tracker,
             system-config-printer-common (>= 1.4),
-            malcontent-gui [amd64 arm64 armel armhf i386 mips mipsel mips64el ppc64el s390x hppa powerpc powerpcspe ppc64],
             network-manager-gnome (>= 0.9.8),
             libnss-myhostname,
             cracklib-runtime,
             pulseaudio-module-bluetooth,
-            realmd
+            power-profiles-daemon
 Suggests: gnome-software | gnome-packagekit,
           gstreamer1.0-pulseaudio,
+          realmd,
           libcanberra-gtk-module,
           libcanberra-gtk3-module,
           x11-xserver-utils
 Description: utilities to configure the Budgie desktop
  This package contains configuration applets for the Budgie desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
- and mouse properties, sound setup, desktop theme and background, user
+ and mouse properties, sound setup, desktop background, user
  interface properties, screen resolution, and other Budgie parameters.
  .
  This is a fork of gnome-control-center at v41 with gnome-shell
