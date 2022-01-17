@@ -1,3 +1,11 @@
+budgie-control-center (0.3-1) UNRELEASED; urgency=medium
+
+  * d/control.in - add budgie-desktop dependency for the
+  budgie-control-center package to ensure budgie itself is installed
+  if a user installs this package in isolation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 17 Jan 2022 11:47:23 +0000
+
 budgie-control-center (0.2-1) unstable; urgency=medium
 
   * Initial Release (Closes: #1003845)
