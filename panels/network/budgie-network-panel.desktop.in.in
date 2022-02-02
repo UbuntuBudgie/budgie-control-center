@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Network
+Comment=Control how you connect to the Internet
+Exec=budgie-control-center network
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=network-workgroup
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-ConnectivitySettings;
+OnlyShowIn=Budgie
+# Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;
