@@ -113,7 +113,11 @@ Section: devel
 Depends: ${misc:Depends},
          budgie-control-center-data
 Description: Development package for Budgie Settings
- This package contains the file required to get the keydirs location
+ This package contains the file required to get the keydirs location.
+ .
+ This is a fork of gnome-control-center at v41 with gnome-shell
+ specifics removed together with configuration specific to the
+ budgie-desktop.
 
 Package: budgie-control-center-data
 Architecture: all
@@ -122,3 +126,7 @@ Depends: ${misc:Depends}
 Description: configuration applets for Budgie - data files
  This package contains data files (icons, pixmaps, locales files) needed by
  the configuration applets in the budgie-control-center package.
+ .
+ This is a fork of gnome-control-center at v41 with gnome-shell
+ specifics removed together with configuration specific to the
+ budgie-desktop.
