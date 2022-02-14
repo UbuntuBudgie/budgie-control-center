@@ -15,7 +15,7 @@ Copyright:
  2007 Anas Husseini
  2003 Arafat Medini
  2006-2014 Bastien Nocera
- 2005-2012 Canonical Ltd.
+ 2005-2020 Canonical Ltd.
  2014 Carlos Garnacho
  2010 Codethink Limited
  2012 Colin Walters
@@ -59,7 +59,7 @@ Copyright:
  2003 Sun Microsystems, Inc.
  2005-2012 Swecha Telugu Localisation Team
  2020 System76, Inc.
- 2004-2022 The GNOME Foundation
+ 2002-2022 The GNOME Foundation
  1999-2015 The Gnome Project
  2012 Thomas Bechtold
  2009-2010 Tias Guns
@@ -70,6 +70,60 @@ Copyright:
  2004-2017 the timezones authors
  2022 Budgie Desktop Developers
 License: GPL-2+ and LGPL-2.1+ and LGPL-2+ and Expat
+
+Files: panels/applications/*
+Copyright: 2018, Matthias Clasen <matthias.clasen@gmail.com>
+License: GPL-3+
+
+Files: panels/applications/cc-applications-panel.c
+  panels/applications/cc-applications-panel.h
+  panels/background/bg-recent-source.c
+  panels/background/bg-recent-source.h
+  panels/background/cc-background-chooser.c
+  panels/background/cc-background-chooser.h
+  panels/background/cc-background-preview.c
+  panels/background/cc-background-preview.h
+Copyright: 2018, 2019, Georges Basile Stavracas Neto <georges.stavracas@gmail.com>
+License: GPL-3+
+
+Files: panels/applications/cc-snap-row.c
+  panels/applications/cc-snap-row.h
+  panels/printers/pp-job-row.c
+Copyright: 2019, 2020, Canonical Ltd.
+License: GPL-3+
+
+Files: panels/network/cc-qr-code.c
+  panels/network/cc-qr-code.h
+  panels/network/cc-wifi-hotspot-dialog.c
+  panels/network/cc-wifi-hotspot-dialog.h
+  panels/wwan/*
+  panels/multitasking/*
+  panels/common/cc-list-row.c
+  panels/common/cc-list-row.h
+Copyright: 2018-2020, Purism SPC
+License: GPL-3+
+
+Files: panels/power/cc-power-profile-info-row.c
+  panels/power/cc-power-profile-row.c
+  panels/power/cc-power-profile-info-row.h
+  panels/power/cc-power-profile-row.h
+  panels/common/cc-permission-infobar.c
+  panels/common/cc-permission-infobar.h
+Copyright: 2020, Red Hat Inc.
+License: GPL-3+
+
+License: GPL-3+
+ This is free software, licensed under:
+ .
+   The GNU General Public License, Version 3, June 2007
+ .
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 dated June, 2007, or (at
+ your option) any later version.
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
 
 License: GPL-2+
   This program is free software; you can redistribute it and/or modify
