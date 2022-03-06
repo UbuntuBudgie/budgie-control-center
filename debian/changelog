@@ -1,3 +1,12 @@
+budgie-control-center (1.0.0-1) unstable; urgency=medium
+
+  * New release
+    - first stable release by upstream
+    - changes from v0.4 includes sync of gnome-control-center v41.4 tag
+      commits; translations and point release bug fixes
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 06 Mar 2022 20:11:37 +0000
+
 budgie-control-center (0.4-1) unstable; urgency=medium
 
   * Initial Release (Closes: #1003845)
