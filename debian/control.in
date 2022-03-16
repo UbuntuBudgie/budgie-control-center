@@ -73,8 +73,7 @@ Depends: ${misc:Depends},
          budgie-control-center-data,
          gnome-desktop3-data,
          gnome-settings-daemon (>= 41),
-         gsettings-desktop-schemas (>= 40),
-         budgie-desktop
+         gsettings-desktop-schemas (>= 40)
 Recommends: cups-pk-helper,
             gnome-online-accounts (>= 3.25.3),
             gnome-user-docs,
@@ -89,7 +88,8 @@ Recommends: cups-pk-helper,
             libnss-myhostname,
             cracklib-runtime,
             pulseaudio-module-bluetooth,
-            power-profiles-daemon
+            power-profiles-daemon,
+            budgie-desktop
 Suggests: gnome-software | gnome-packagekit,
           gstreamer1.0-pulseaudio,
           realmd,

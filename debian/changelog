@@ -1,3 +1,14 @@
+budgie-control-center (1.0.0-2) unstable; urgency=medium
+
+  * Bug-fix release
+    - Do not have circular dependency on budgie-desktop (Closes: #1007207)
+      d/control - change budgie-desktop to a recommendation
+    - Ensure Enhanced Open (OWE) connections can be saved properly from
+      the connection-editor
+      network-Fix-OWE-settings.patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 16 Mar 2022 17:56:53 +0000
+
 budgie-control-center (1.0.0-1) unstable; urgency=medium
 
   * New release
