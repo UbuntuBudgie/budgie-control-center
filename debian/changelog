@@ -1,3 +1,12 @@
+budgie-control-center (1.0.1-1) unstable; urgency=medium
+
+  * New microrelease
+    - Resolve inconsistent icons which were previously a mixture of
+      color and symbolic symbology.
+    - drop existing patch since incorporated in this release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 17 Mar 2022 18:33:55 +0000
+
 budgie-control-center (1.0.0-2) unstable; urgency=medium
 
   * Bug-fix release
