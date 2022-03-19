@@ -1,4 +1,4 @@
-budgie-control-center (1.0.1-1) unstable; urgency=medium
+budgie-control-center (1.0.1.0-1) unstable; urgency=medium
 
   * New microrelease
     - Resolve inconsistent icons which were previously a mixture of
