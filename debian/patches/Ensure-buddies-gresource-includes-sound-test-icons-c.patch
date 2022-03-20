@@ -1,0 +1,26 @@
+From 2d64321630e98e4471ecf657b5a79ed1477a2ae8 Mon Sep 17 00:00:00 2001
+From: David Mohammed <fossfreedom@ubuntu.com>
+Date: Sun, 20 Mar 2022 15:09:53 +0000
+Subject: [PATCH] Ensure buddies gresource includes sound test icons - closes
+ #23
+
+---
+ panels/sound/sound.gresource.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/panels/sound/sound.gresource.xml b/panels/sound/sound.gresource.xml
+index a7b662dd2..4a0df10dd 100644
+--- a/panels/sound/sound.gresource.xml
++++ b/panels/sound/sound.gresource.xml
+@@ -14,7 +14,7 @@
+     <file preprocess="xml-stripblanks">cc-subwoofer-slider.ui</file>
+     <file preprocess="xml-stripblanks">cc-volume-slider.ui</file>
+   </gresource>
+-  <gresource prefix="/org/gnome/ControlCenter/icons/scalable/devices">
++  <gresource prefix="/org/buddiesofbudgie/ControlCenter/icons/scalable/devices">
+     <file alias="audio-speaker-center-back.svg">icons/audio-speaker-center-back.svg</file>
+     <file alias="audio-speaker-center-back-testing.svg">icons/audio-speaker-center-back-testing.svg</file>
+     <file alias="audio-speaker-center.svg">icons/audio-speaker-center.svg</file>
+-- 
+2.34.1
+
