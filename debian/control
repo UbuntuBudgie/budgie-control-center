@@ -61,6 +61,7 @@ Build-Depends: debhelper-compat (= 13),
                tzdata <!nocheck>,
                xvfb,
                python3-dbusmock,
+               libgnutls28-dev,
 Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/ubuntubudgie/budgie-control-center.git
