@@ -1,3 +1,23 @@
+budgie-control-center (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - display sound icons when testing the sound output
+    - small typo fix in oc language
+    - version bump for gsettings schemas i.e. BCC is for GNOME 42 and later
+    - Rework fractional scaling support for distros that include the mutter
+      patch (LP: #1972007)
+    - Support VNC Screen-sharing with GNOME 42 GNOME Remote Desktop
+      (LP: #1973117)
+  * Adapt GCC ubuntu specific language & region chooser to ensure
+    language & locale selection is displayed and able to choose from
+    (LP: #1970255)
+    ubuntu/Adapts-the-region-capplet-and-the-language-chooser-in-the.patch
+  * Packaging Changes
+    - Drop existing patch since incorporated in the microrelease
+    - d/rules add clean and configure rules to apply ubuntu specific patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 May 2022 14:31:10 +0100
+
 budgie-control-center (1.0.1-2) unstable; urgency=medium
 
   * Bug-fix

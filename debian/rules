@@ -8,6 +8,20 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,-z,defs
 	dh $@
 
 override_dh_auto_configure:
+ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo ubuntu),ubuntu)
+	patch -p1 < debian/ubuntu/Adapts-the-region-capplet-and-the-language-chooser-in-the.patch
+	touch ./debian/ubuntu/applied
+endif
 	dh_auto_configure -- \
 		-Dprivileged_group=sudo \
 		-Ddocumentation=true
+
+override_dh_clean:
+	dh_clean
+ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo ubuntu),ubuntu)
+
+	@if [ -e ./debian/ubuntu/applied ]; then \
+		patch -R -p1 < debian/ubuntu/Adapts-the-region-capplet-and-the-language-chooser-in-the.patch ; \
+		rm ./debian/ubuntu/applied ; \
+	fi
+endif
