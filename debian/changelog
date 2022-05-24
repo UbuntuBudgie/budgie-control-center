@@ -1,3 +1,11 @@
+budgie-control-center (1.0.2-2) unstable; urgency=medium
+
+  * Packaging Changes
+    - d/control.in Remove pulseaudio specifics to allow uplift to pipewire
+      if required.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 24 May 2022 10:01:41 +0100
+
 budgie-control-center (1.0.2-1) unstable; urgency=medium
 
   * New upstream release
