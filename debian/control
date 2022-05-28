@@ -111,19 +111,6 @@ Description: utilities to configure the Budgie desktop
  specifics removed together with configuration specific to the
  budgie-desktop.
 
-Package: budgie-control-center-dev
-Architecture: all
-Multi-Arch: foreign
-Section: devel
-Depends: ${misc:Depends},
-         budgie-control-center-data
-Description: Development package for Budgie Settings
- This package contains the file required to get the keydirs location.
- .
- This is a fork of gnome-control-center at v41 with gnome-shell
- specifics removed together with configuration specific to the
- budgie-desktop.
-
 Package: budgie-control-center-data
 Architecture: all
 Multi-Arch: foreign

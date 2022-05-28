@@ -1,3 +1,9 @@
+budgie-control-center (1.0.2.1-1) unstable; urgency=medium
+
+  * Remove dev package since no longer needed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 28 May 2022 23:38:53 +0100
+
 budgie-control-center (1.0.2.0-1) unstable; urgency=medium
 
   * New microrelease
