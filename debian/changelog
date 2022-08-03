@@ -1,3 +1,13 @@
+budgie-control-center (1.0.2-3) experimental; urgency=medium
+
+  * Resolve FTBFS due to gnome-desktop 43 alpha API changes
+    0001-Resolve-thumbnail-API-change-31.patch
+    (closes: #1016175)
+  * Packaging Changes
+    d/control.in B/D libgnome-desktop-dev 43~alpha-2
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 03 Aug 2022 09:13:45 +0100
+
 budgie-control-center (1.0.2-2) unstable; urgency=medium
 
   * Packaging Changes
