@@ -10,6 +10,8 @@ budgie-control-center (1.1.0-1) unstable; urgency=medium
       CPU, Core and Processor.
       Network: Implement handling for OWE-TM networks
     - Drop existing patch since it has been incorporated in this release
+    - Upload to unstable since release can be built with both unstable
+      and experimental gnome-desktop versions
   * Packaging Changes
     - drop budgie-control-center-dev since no longer required with this
       release.  No reverse dependencies in the archive exists
