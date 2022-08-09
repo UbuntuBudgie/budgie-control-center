@@ -1,11 +1,26 @@
-budgie-control-center (1.1.0-1) UNRELEASED; urgency=medium
+budgie-control-center (1.1.0-1) unstable; urgency=medium
 
   * New upstream release
-    Drop existing patches
-  * Packaging changes
-    d/control.in remove unneeded B/D libsoup2.4-dev
+    - changes described in the upstream release tag
+      https://github.com/BuddiesOfBudgie/budgie-control-center/releases/tag/v1.1.0
+      Notable changes in this release:
+      Printers: Add the ability to adjust the job task priority
+      Info-Overview - overhaul of descriptions to correctly display
+      trademarks, remove junk info and simplify strings such as
+      CPU, Core and Processor.
+      Network: Implement handling for OWE-TM networks
+    - Drop existing patch since it has been incorporated in this release
+  * Packaging Changes
+    - drop budgie-control-center-dev since no longer required with this
+      release.  No reverse dependencies in the archive exists
+      so don't need to make a transition package
+    - d/control.in - drop B/D libgnome-desktop-dev to current testing version
+      42.3 since this release will build with v43 and v42 - rebuild as
+      part of a future GNOME 43 transition.
+      Add libgnutls28-dev as a B/D
+      Remove libsoup2.4-dev as a B/D
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 05 Aug 2022 09:24:27 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 09 Aug 2022 09:35:07 +0100
 
 budgie-control-center (1.0.2-3) experimental; urgency=medium
 
