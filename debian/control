@@ -61,7 +61,7 @@ Build-Depends: debhelper-compat (= 13),
                xvfb,
                python3-dbusmock,
                libgnutls28-dev
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1.0
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/ubuntubudgie/budgie-control-center.git
 Vcs-Browser: https://github.com/ubuntubudgie/budgie-control-center
@@ -79,7 +79,6 @@ Depends: ${misc:Depends},
          gnome-settings-daemon (>= 41),
          gsettings-desktop-schemas (>= 40)
 Recommends: cups-pk-helper,
-            gnome-online-accounts (>= 3.25.3),
             gnome-user-docs,
             gnome-user-share,
             gkbd-capplet,
@@ -97,7 +96,8 @@ Suggests: gnome-software | gnome-packagekit,
           realmd,
           libcanberra-gtk-module,
           libcanberra-gtk3-module,
-          x11-xserver-utils
+          x11-xserver-utils,
+          gnome-online-accounts
 Description: utilities to configure the Budgie desktop
  This package contains configuration applets for the Budgie desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
