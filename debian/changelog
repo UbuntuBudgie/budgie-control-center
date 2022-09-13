@@ -1,7 +1,7 @@
 budgie-control-center (1.1.1-1) unstable; urgency=medium
 
   * New microrelease
-    - Translations through our wonderful transifex community.  Thank you all
+    - Translations update
     - Support 5G modems on the network page
     - Background image - update to look like budgie rather than GNOME Shell
   * Packaging Changes
