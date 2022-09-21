@@ -81,6 +81,7 @@ Depends: ${misc:Depends},
 Recommends: cups-pk-helper,
             gnome-user-docs,
             gnome-user-share,
+            gnome-online-accounts,
             gkbd-capplet,
             iso-codes,
             libcanberra-pulse,
@@ -96,8 +97,7 @@ Suggests: gnome-software | gnome-packagekit,
           realmd,
           libcanberra-gtk-module,
           libcanberra-gtk3-module,
-          x11-xserver-utils,
-          gnome-online-accounts
+          x11-xserver-utils
 Description: utilities to configure the Budgie desktop
  This package contains configuration applets for the Budgie desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard

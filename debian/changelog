@@ -1,3 +1,11 @@
+budgie-control-center (1.1.1-2) unstable; urgency=medium
+
+  * d/control.in move gnome-online-accounts back to a recommendation
+    since it now includes budgie-control-center as an alternate thus
+    it no longer installs gnome-control-center
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 Sep 2022 21:40:43 +0100
+
 budgie-control-center (1.1.1-1) unstable; urgency=medium
 
   * New microrelease
