@@ -1,4 +1,4 @@
-budgie-control-center (1.1.0.1-1) unstable; urgency=medium
+budgie-control-center (1.1.1.1-1) unstable; urgency=medium
 
   * Remove dev package since no longer needed
 
