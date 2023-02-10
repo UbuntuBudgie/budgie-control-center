@@ -1,24 +1,40 @@
-budgie-control-center (1.2.0-1) UNRELEASED; urgency=medium
+budgie-control-center (1.2.0-1) unstable; urgency=medium
 
   * New upstream release
-    Add support to specify a Touchpad's click-method - using finger actions, clicking on touchpad areas, disable recognizing touchpad clicks or using your hardware default (if any)
-    Support fingerprint recognition for login (a lightdm greeter such as slick) as well as the lock screen (budgie-screensaver / gnome-screensaver). Distros are recommended to include their equivalent of the Debian fprintd and libpam-fprintd packages and/or document how to setup fingerprint support and enrolment now available through through BCC - Users
-    Super+Shift+P now in budgie-desktop v10.7 shows the new Power Dialog. This shortcut can be customised through the Keyboard - View and Customize Shortcuts - System
-    Add printers button now longer shows the potentially confusing two equivalent buttons on the same screen
+    Add support to specify a Touchpad's click-method - using finger actions,
+    clicking on touchpad areas, disable recognizing touchpad clicks or using
+    your hardware default (if any)
+    Support fingerprint recognition for login (a lightdm greeter such as
+    slick) as well as the lock screen (budgie-screensaver /
+    gnome-screensaver). Distros are recommended to include their equivalent
+    of the Debian fprintd and libpam-fprintd packages and/or document how to
+    setup fingerprint support and enrolment now available through BCC - Users
+    Super+Shift+P now in budgie-desktop v10.7 shows the new Power Dialog. This
+    shortcut can be customised through the Keyboard - View and Customize
+    Shortcuts - System
+    Add printers button now longer shows the potentially confusing two
+    equivalent buttons on the same screen
     About: Remove the Mesa prefix for the Intel Iris driver
     About: Add the distro's Build ID (if it has one)
     About: Add the current kernel version
-    Background: Now shows all image mime-types - previously just jpg and png were displayed. This potentially allows desktop images to be displayed using a wider array of image types such as .webp
+    Background: Now shows all image mime-types - previously just jpg and png
+    were displayed. This potentially allows desktop images to be displayed
+    using a wider array of image types such as .webp
     Fix crash if no power profile is set manually through gsettings
-    Fix occasional crash when entering the wifi page when not connected to a network
+    Fix occasional crash when entering the wifi page when not connected to a
+    network
     Add missing interface name during network profile creation
-    Update WWAN apn list only if device is available otherwise APN list from mobile-provider-info may not be properly loaded
-    Hide the thunderbolt panel if no thunderbolt devices/capabilities are detected. This mimics Wacom panel display/hiding
+    Update WWAN apn list only if device is available otherwise APN list from
+    mobile-provider-info may not be properly loaded
+    Hide the thunderbolt panel if no thunderbolt devices/capabilities are
+    detected. This mimics Wacom panel display/hiding
     Lots of updated translation thanks to our wonderful Transifex community
   * Packaging Changes
     debian/control.in add requirement for budgie-desktop >= 10.7
+    B/D policykit-1 to polkitd and pkexec (Closes: #1025549)
+    Recommends:change from policykit-1 to polkitd and pkexec
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 29 Jan 2023 10:25:02 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 10 Feb 2023 16:12:53 +0000
 
 budgie-control-center (1.1.1-2) unstable; urgency=medium
 
