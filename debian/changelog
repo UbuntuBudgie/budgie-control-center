@@ -1,3 +1,54 @@
+budgie-control-center (1.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  - Default applications - allow one to change the File-Manager defaults
+  - Lots of new and updated translators
+  - bug-fix: Set search button/entry as sensitive when printers list is empty
+  - Don't invoking Search when pressing CTRL+S - CTRL+F is the standard
+    method to invoke Search and CTRL+S is to invoke saving
+  - Privacy - Clearing File History now prompts whether to empty; now
+    consistent with emptying the trash etc.
+  - bug-fix: sound: Don't flip the balance and fade sliders in RTL setups
+  - bug-fix: sound: alerts sounds are correctly defined when choosing an
+    alert type
+  - sound: Add a "None" option to turn off sound alerts
+  - bug-fix: network: reapply connection on device when refreshing
+  - bug-fix: network: add missing cancellable; this resolves odd crashing
+    when adding but then cancelling network connections
+  - network: Disable DNS entry if the automatic option is enabled in the
+    connection editor IPv4/6 tabs
+  - display: Add 32:9 to known aspect ratios; support ultra-wide monitors
+  - keyboard: country matches should not be shown under a language name;
+    e.g. searching for Italian shouldn't display country matches
+  - bug-fix: ensure printing test pages work with temporary queues
+  - bug-fix: disable commas from trying to be used to set the host-name;
+    previously this caused extra unnecessary logs to be produced
+  - bug-fix: resolve issues where the pop-up showing user avatars appeared
+    over the top of selecting a new avatar
+  - bug-fix: resolve crash when cancelling from connecting to a thunderbolt
+    connection
+  - Display "UPS" in the power panel if the desktop is actually connected
+    to a UPS
+  - Add a confirmation dialog when attempting to clear file history
+  - bug-fix: Resolve duplicate entries that occasionally appear in the sound
+    device drop-downs
+  - Displays: ensure all screens are updated ('snapped') when a display
+    config change is made; for example rotating a screen that is in the middle
+    of two adjacent screens is now possible
+  - Allow jumbo-frames to be used for network connections - MTU size increased
+    to 65536 bytes
+  - bug-fix: where a panel does crash, ensure that panel is not the last
+    remembered panel so that BCC can be reopened again.
+  - bug-fix: When searching, ensure that pressing ENTER does not activate an
+    empty panel search nor result in reactivating the WIFI panel when on another
+    panel
+  * Packaging Changes
+    d/control.in bump StandardsVersion; no addition changes required
+    d/control.in drop now obsolete b/d on transition package
+    libgdk-pixbuf2.0-dev
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 01 Aug 2023 20:18:14 +0100
+
 budgie-control-center (1.2.0-1) unstable; urgency=medium
 
   * New upstream release

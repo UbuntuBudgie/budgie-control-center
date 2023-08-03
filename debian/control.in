@@ -17,7 +17,7 @@ Build-Depends: debhelper-compat (= 13),
                libcolord-gtk-dev (>= 0.1.24),
                libcups2-dev,
                libgcr-3-dev [linux-any],
-               libgdk-pixbuf-2.0-dev (>= 2.23.0) | libgdk-pixbuf2.0-dev (>= 2.23.0),
+               libgdk-pixbuf-2.0-dev (>= 2.23.0),
                libgirepository1.0-dev,
                libglib2.0-dev (>= 2.68.0),
                libgnome-desktop-3-dev (>= 42.3),
@@ -58,7 +58,7 @@ Build-Depends: debhelper-compat (= 13),
                xvfb,
                python3-dbusmock,
                libgnutls28-dev
-Standards-Version: 4.6.1.0
+Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/ubuntubudgie/budgie-control-center.git
 Vcs-Browser: https://github.com/ubuntubudgie/budgie-control-center
