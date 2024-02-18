@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-export DEB_CPPFLAGS_MAINT_APPEND = -DSSHD_SERVICE=\"ssh.service\"
+export DEB_CPPFLAGS_MAINT_APPEND = -DSSHD_SERVICE=\"ssh.service\" -DSSHD_SOCKET=\"ssh.socket\"
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,-z,defs
 
 %:
@@ -11,10 +11,15 @@ override_dh_auto_configure:
 ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo ubuntu),ubuntu)
 	patch -p1 < debian/ubuntu/Adapts-the-region-capplet-and-the-language-chooser-in-the.patch
 	touch ./debian/ubuntu/applied
-endif
+	dh_auto_configure -- \
+		-Dprivileged_group=sudo \
+		-Ddocumentation=true \
+		-Dssh=true
+else
 	dh_auto_configure -- \
 		-Dprivileged_group=sudo \
 		-Ddocumentation=true
+endif
 
 override_dh_clean:
 	dh_clean
