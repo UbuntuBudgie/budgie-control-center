@@ -1,3 +1,13 @@
+budgie-control-center (1.4.0-2) unstable; urgency=medium
+
+  * Bug-fix
+    d/control - remove B/D on cheese.
+    d/rules - Drop cheese support for taking user pictures.  This has been
+    dropped from upstream gnome-control-center and it appears to no longer
+    work anyway.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Mar 2024 20:19:52 +0000
+
 budgie-control-center (1.4.0-1) unstable; urgency=medium
 
   * New upstream release
