@@ -1,3 +1,20 @@
+budgie-control-center (1.4.0-3) unstable; urgency=medium
+
+  * Revert addition of patch since apparmor now includes a suitable bwrap
+    profile. (LP: #2065708)
+    Don-t-use-gnome-desktop-thumbnail-preview-creator.patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 30 May 2024 22:00:05 +0100
+
+budgie-control-center (1.4.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Bug-fix
+    - Backgrounds: fix to allow the "Add Picture" option to work correctly
+      Don-t-use-gnome-desktop-thumbnail-preview-creator.patch (LP #2065708)
+
+ -- Samuel Lane <samlane00@gmail.com>  Tue, 14 May 2024 16:07:21 -0400
+
 budgie-control-center (1.4.0-2) unstable; urgency=medium
 
   * Bug-fix
