@@ -1,3 +1,10 @@
+budgie-control-center (1.4.0-4) unstable; urgency=medium
+
+  * Resolve FTBFS with GCC-14 (Closes: #1074857)
+    0001-fix-FTBFS-with-incompatible-pointer-types.patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 28 Jul 2024 21:46:35 +0100
+
 budgie-control-center (1.4.0-3) unstable; urgency=medium
 
   * Revert addition of patch since apparmor now includes a suitable bwrap
