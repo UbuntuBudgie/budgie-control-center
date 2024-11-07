@@ -1,6 +1,6 @@
 Applied-Upstream: commit: 5d486ad2af74a6b5f643819f1000cb8388eba43d
 Author: Joshua Strobl <me@joshuastrobl.com>
-Last-Update: 20240316
+Last-Update: 2024-03-16
 Description: [PATCH] fix: FTBFS with incompatible-pointer-types
 
 ---

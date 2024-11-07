@@ -1,3 +1,13 @@
+budgie-control-center (1.4.0-5) unstable; urgency=medium
+
+  * d/control update to depends on network-manager-applet
+    not the now transition package network-manager-gnome
+    (Closes: #1086821)
+  * patch 0001-fix-FTBFS-with-incompatible-pointer-types.patch
+    resolve dep-3 last-update format
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Nov 2024 20:15:59 +0000
+
 budgie-control-center (1.4.0-4) unstable; urgency=medium
 
   * Resolve FTBFS with GCC-14 (Closes: #1074857)
