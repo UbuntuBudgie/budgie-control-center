@@ -1,8 +1,18 @@
 budgie-control-center (1.4.0-6) UNRELEASED; urgency=medium
 
   * d/control remove dependency on obsolete apg (Closes: #1104261)
+  * d/control remove obsolete libxklavier-dev - add closes bug report
+  * TBD with version bump change media-keys config to use budgie schema
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Nov 2024 20:15:59 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 04 Sep 2025 13:50:49 +0100
+
+budgie-control-center (1.4.0-5.1) unstable; urgency=medium
+
+  * Non-maintainer upload
+  * Drop bluetooth support (Closes: #1059485)
+  * Drop Suggests: libcanberra-gtk-module (Closes: #1054627)
+
+ -- Bastian Germann <bage@debian.org>  Thu, 02 Jan 2025 15:19:26 +0000
 
 budgie-control-center (1.4.0-5) unstable; urgency=medium
 

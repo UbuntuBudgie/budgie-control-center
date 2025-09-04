@@ -1,0 +1,35 @@
+Author: Bastian Germann
+Description: Disable bluetooth support on every architecture
+Upstream-Bug: https://github.com/BuddiesOfBudgie/budgie-control-center/issues/83
+---
+--- a/meson.build
++++ b/meson.build
+@@ -249,7 +249,6 @@
+
+ if host_is_linux_not_s390
+   # gnome-bluetooth
+-  gnome_bluetooth_dep = dependency('gnome-bluetooth-1.0', version: '>= 3.18.2')
+
+   libwacom_dep = dependency('libwacom', version: '>= 0.7')
+
+@@ -262,9 +261,7 @@
+   message('Bluetooth and Wacom panels will not be built (no USB support on this platform)')
+   message('Thunderbolt panel will not be built (not supported on this platform)')
+ endif
+-config_h.set('BUILD_BLUETOOTH', host_is_linux_not_s390,
+-             description: 'Define to 1 to build the Bluetooth panel')
+-config_h.set('HAVE_BLUETOOTH', host_is_linux_not_s390,
++config_h.set('HAVE_BLUETOOTH', 0,
+              description: 'Define to 1 if bluetooth support is available')
+ config_h.set('BUILD_WACOM', host_is_linux_not_s390,
+              description: 'Define to 1 to build the Wacom panel')
+--- a/panels/meson.build
++++ b/panels/meson.build
+@@ -34,7 +34,6 @@
+
+ if host_is_linux_not_s390
+   panels += [
+-    'bluetooth',
+     'thunderbolt',
+     'wacom'
+   ]
