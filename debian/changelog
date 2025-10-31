@@ -9,7 +9,10 @@ budgie-control-center (1.4.1-1) unstable; urgency=medium
   * d/control remove dependency on obsolete apg (Closes: #1104261)
   * d/control remove obsolete libxklavier-dev
   * d/control remove obsolete libgnomekbd (Closes: #1092921)
+  * d/control remove obsolete libgirepository1.0-dev (Closes: #1118793)
   * d/control bump StandardsVersion; no changes required
+  * d/control bump gnome-settings-daemon version to ensure migration
+    of GNOME 49 with this package
   * Drop 0001-fix-FTBFS-with-incompatible-pointer-types; new release
     resolves the previous compilation issues and now supports the
     GNOME 49 required schema changes included with the latest budgie-desktop
