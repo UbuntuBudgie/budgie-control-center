@@ -1,3 +1,9 @@
+budgie-control-center (2.0.0~preview.1-0ubuntu1) resolute; urgency=medium
+
+  * New upstream release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 26 Nov 2025 21:52:46 +0000
+
 budgie-control-center (1.4.1-1) unstable; urgency=medium
 
   * New microrelease
