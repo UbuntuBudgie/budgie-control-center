@@ -1,3 +1,10 @@
+budgie-control-center (2.0.0-1) experimental; urgency=medium
+
+  * New upstream release
+    - upstream has marked this as stable
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Jan 2026 19:40:42 +0000
+
 budgie-control-center (2.0.0~preview.1-1) experimental; urgency=medium
 
   * New upstream release
