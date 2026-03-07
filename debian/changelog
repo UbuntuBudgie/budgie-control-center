@@ -1,3 +1,17 @@
+budgie-control-center (2.1.1-1) experimental; urgency=medium
+
+  * New upstream release
+    - fixes include
+      show the two scrollmethod touchpad options
+      support dark mode if the portal recommends it
+      remove the obsolete bluetooth and cheese code
+    - update to the latest recommended GVC code (closes: #1126546)
+    - Latest translations
+  * Packaging changes
+    - d/rules - remove obsolete cheese and bluetooth compile options
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Mar 2026 17:47:57 +0000
+
 budgie-control-center (2.1.0-1) experimental; urgency=medium
 
   * New upstream release

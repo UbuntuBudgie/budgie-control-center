@@ -14,15 +14,11 @@ ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo ubuntu),ubuntu)
 	dh_auto_configure -- \
 		-Dprivileged_group=sudo \
 		-Ddocumentation=true \
-		-Dssh=true \
-		-Dcheese=false \
-		-Dbluetooth=false
+		-Dssh=true
 else
 	dh_auto_configure -- \
 		-Dprivileged_group=sudo \
-		-Ddocumentation=true \
-		-Dcheese=false \
-		-Dbluetooth=false
+		-Ddocumentation=true
 endif
 
 override_dh_clean:
