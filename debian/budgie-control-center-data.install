@@ -6,4 +6,3 @@ usr/share/icons
 usr/share/pixmaps/budgie-faces
 usr/share/pixmaps/budgie-logo.png
 usr/share/polkit-1
-debian/budgie-control-center.pkla /var/lib/polkit-1/localauthority/10-vendor.d/

@@ -1,3 +1,13 @@
+budgie-control-center (2.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - allows building against libgnome-desktop v51.alpha
+      (Closes: #1143514)
+    - remove obsolete polkit pkla configuration file
+      (Closes: #1142613)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 03 Aug 2026 21:02:04 +0100
+
 budgie-control-center (2.1.1-2) unstable; urgency=medium
 
   * Upload to unstable now that all budgie components have been assembled
